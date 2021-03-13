@@ -1,0 +1,81 @@
+.dropdown-menu .dropdown-item {
+  color: #000 !important;
+}
+.dropdown-menu .dropdown-item:active {
+  color: #fff !important;
+}
+
+hr.sidebar-divider {
+  margin: 1rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* --------- Pagination ---------- */
+.pagination .page-link {
+  margin: 5px;
+}
+.pagination .page-link:focus {
+  box-shadow: none;
+}
+
+/*-------- login page -------*/
+#login-page {
+  background: #2a9d8f;
+}
+#login-page .form {
+  margin-top: 150px !important;
+  background: #264653;
+  color: #fff;
+  border-radius: 4px;
+}
+#login-page .form .loginBtn {
+  background: #2a9d8f;
+  color: #fff;
+}
+#login-page .form .loginBtn:hover {
+  opacity: 0.8;
+}
+
+/*-------- forgot page -------*/
+#forgot-page {
+  background: #903749;
+}
+#forgot-page .form {
+  margin-top: 150px !important;
+  background: #2b2e4a;
+  color: #fff;
+  border-radius: 4px;
+}
+#forgot-page .form .loginBtn {
+  background: #903749;
+  color: #fff;
+}
+#forgot-page .form .loginBtn:hover {
+  opacity: 0.8;
+}
+
+/*------- Footer -------*/
+.main-footer a {
+  color: #ffc107 !important;
+}
+.main-footer a:hover {
+  color: #ffc107d8 !important;
+}
+
+/* User Profile */
+#user-profile .user-profile-img {
+  width: 160px;
+  height: 160px;
+  background: #ddd;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 33px;
+  margin-top: -108px;
+}
+#user-profile .user-profile-img img{
+  border-radius: 50%;
+}
+#user-profile form{
+  margin-top: 120px !important;
+}
